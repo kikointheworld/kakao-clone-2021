@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
 }
 .status-bar__column {
   width: 33%;
@@ -16,9 +20,17 @@
 }
 .status-bar__column:last-child {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+.status-bar__column .fa-bolt {
+  margin-right: 5px;
+}
+
+.status-bar__chat-screen {
+  background-color: #abc1d1;
 }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/5f9c58c2017800001.png"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="my website" />
+    <title>Chat - Kakao Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar status-bar__chat-screen">
+      <div class="status-bar__column">
+        <!--Wifi Icon-->
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--Battery Icon-->
+        <!--Lightning Icon-->
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">kiko</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://t4.daumcdn.net/thumb/R720x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/248R/image/IshD6KZKZ6mYFW5SWj966W_fyp4.jpg"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply" action="">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/b93d87e700.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
